@@ -41,6 +41,6 @@ add_action('init', 'registrar_menu_navegacao');
 
 function geraTitle() {
 				bloginfo('name');
-				if( !is_home()) echo ' | ';  
+				if ( !is_home()) echo ' | ';  
 				the_title(); 
 			}
